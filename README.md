@@ -15,8 +15,9 @@
 * Stylelint - extends [stylelint-config-airbnb](https://www.npmjs.com/package/stylelint-config-airbnb) 
 * Critical CSS - [postcss-critical-css](https://github.com/zgreen/postcss-critical-css)
 * [Husky](https://github.com/typicode/husky) - Git hooks made easy, e.g. linting staged files before commit
-* [Parceljs](https://parceljs.org//) for compiling assets, optimizing images, and concatenating and minifying files
-* [Browsersync](http://www.browsersync.io/) for synchronized browser testing
+* [Parceljs](https://parceljs.org//) - Blazing fast, zero configuration web application bundler
+* [Browsersync](http://www.browsersync.io/) - Synchronized browser testing
+* [sanitize.css](https://github.com/csstools/sanitize.css) - A best-practices CSS foundation
 
 
 ### Requirements
