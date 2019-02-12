@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "autoprefixer": true,
+    "postcss-critical-css": {
+      "outputPath": "./dist",
+      "outputDest": "main.crit.css",
+      "preserve": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+// Body
+body {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $ff-Arial;
+}
+
+// Media
+img {
+  display: inline-block;
+  max-width: 100%;
+}

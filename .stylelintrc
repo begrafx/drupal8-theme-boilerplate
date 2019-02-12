@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-airbnb",
+  "rules": {
+    "number-leading-zero": "always",
+    "at-rule-empty-line-before": "never",
+    "rule-empty-line-before": [
+      "always-multi-line",
+      {
+        "except": [
+          "after-single-line-comment"
+        ]
+      }
+    ]
+  }
+}

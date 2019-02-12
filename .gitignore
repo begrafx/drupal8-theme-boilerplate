@@ -1,0 +1,12 @@
+node_modules
+dist
+
+# Caches
+.cache
+.eslintcache
+.stylelintcache
+
+# Dotenv
+.env
+.env.*
+!.env.example

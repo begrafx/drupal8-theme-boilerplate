@@ -1,0 +1,17 @@
+global:
+  version: 1.x
+  css:
+    theme:
+      node_modules/sanitize.css/sanitize.css: {}
+      dist/main.css: {}
+  js:
+    dist/main.js: {}
+  dependencies:
+    - core/drupal
+
+accordion:
+  css:
+    base:
+      dist/components/accordion/accordion.css: {}
+  js:
+    dist/components/accordion/accordion.js: {}

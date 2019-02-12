@@ -1,0 +1,20 @@
+name: Boilerplate
+type: theme
+base theme: classy
+description: 'Boilerplate Drupal theme with a modern development workflow.'
+version: 0.1
+core: 8.x
+regions:
+  header: 'Header'
+  featured: 'Featured'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+libraries:
+  - boilerplate/global
+libraries-override:
+ classy/base: false
+ classy/messages: false
+ system/base: false
+ core/normalize: false

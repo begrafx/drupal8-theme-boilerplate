@@ -1,0 +1,9 @@
+<header class="header" role="header">
+  <a href="{{ url('<front>') }}" title="{{ 'Home'|t }}">
+    <img class="logo" src="/" alt="logo">
+  </a>
+  
+  {% if page.header %}
+    {{ page.header }}
+  {% endif %}
+</header>
