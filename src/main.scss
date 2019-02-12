@@ -9,5 +9,5 @@
 
 // Everything here ends in its own main.crit.css file and is inlined in the <head> tag
 @critical {
-  @import "settings/settings-fonts.scss";
+  @import "settings/critical/settings-fonts";
 }
