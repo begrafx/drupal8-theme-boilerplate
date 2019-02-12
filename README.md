@@ -1,5 +1,12 @@
 ## Boilerplate Drupal theme with a modern development workflow
 
+### Quick start
+* Run `yarn` from the theme directory to install dependencies
+* Copy the `.env.example to` file to a `.env` file:
+  * Edit `DEV_URL`. It should reflect your local development hostname
+* `yarn start` — Compile assets when file changes are made, start Browsersync session
+* `yarn build` — Compile and optimize the files in your src directory for production
+
 ### Features
 * Sass
 * Modern JavaScript
@@ -56,7 +63,7 @@ Make sure all dependencies have been installed before moving on:
 └── yarn.lock
 ```
 
-Drupal Paragraph components should go into `src/components` directory:
+Drupal Paragraph components should go into `src/components` directory: 
 ```shell
 src
 ├── components
