@@ -7,6 +7,7 @@
 * `yarn start` — Compile assets when file changes are made, start Browsersync session
 * `yarn build` — Compile and optimize the files in your src directory for production
 
+
 ### Features
 * Sass
 * Modern JavaScript
@@ -21,6 +22,7 @@
 ### Requirements
 Make sure all dependencies have been installed before moving on:
 
+
 * [Drupal](https://www.drupal.org//) > 8.x
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
@@ -28,6 +30,7 @@ Make sure all dependencies have been installed before moving on:
 
 
 ### Theme installation
+
 
 ### Theme structure
 
@@ -77,11 +80,13 @@ src
 
 ### Theme setup
 
+
 ### Theme development
 
 * Run `yarn` from the theme directory to install dependencies
 * Copy the `.env.example to` file to a `.env` file:
   * `DEV_URL` should reflect your local development hostname
+  
 
 ### Build commands
 
