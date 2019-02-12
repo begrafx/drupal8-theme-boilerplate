@@ -3,7 +3,7 @@
 // but also for the scss components, which are not inside of the roots.
 //
 
-// Typography and Fonts settings
+// Typography settings
 @import "settings-typography";
 
 // Colors settings
@@ -11,9 +11,6 @@
 
 // Layout and appearance settings
 @import "settings-layout";
-
-// Critical filenames
-@import "settings-critical";
 
 // Mixins
 @import "../mixins/mixins";
