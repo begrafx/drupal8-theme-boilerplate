@@ -9,9 +9,10 @@ global:
   dependencies:
     - core/drupal
 
-accordion:
-  css:
-    base:
-      dist/components/accordion/accordion.css: {}
-  js:
-    dist/components/accordion/accordion.js: {}
+# Library example
+#accordion:
+#  css:
+#    base:
+#      dist/components/accordion/accordion.css: {}
+#  js:
+#    dist/components/accordion/accordion.js: {}
