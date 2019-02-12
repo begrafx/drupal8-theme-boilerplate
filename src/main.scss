@@ -7,7 +7,7 @@
 // Elements
 @import "abstractions/abstractions";
 
-// Everything here ends in its own main.crit.css file
+// Everything here ends in its own main.crit.css file and is inlined in the <head> tag
 @critical {
   @import "settings/settings-fonts.scss";
 }
