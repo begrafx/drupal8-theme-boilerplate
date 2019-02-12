@@ -2,11 +2,13 @@
 Example: 
 
 ```shell
-components
-├── accordion
-│   ├── accordion.js
-│   └── accordion.scss
-└── simple-product
-    ├── simple-product.scss
-    └── simpleProduct.js
+src
+├── components
+    ├── README.md
+    ├── accordion
+    │   ├── accordion.js
+    │   └── accordion.scss
+    └── simple-product
+        ├── simple-product.scss
+        └── simpleProduct.js
 ```

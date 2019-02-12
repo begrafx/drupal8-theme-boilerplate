@@ -56,6 +56,19 @@ Make sure all dependencies have been installed before moving on:
 └── yarn.lock
 ```
 
+Drupal Paragraph components should go into `src/components` directory:
+```shell
+src
+├── components
+    ├── README.md
+    ├── accordion
+    │   ├── accordion.js
+    │   └── accordion.scss
+    └── simple-product
+        ├── simple-product.scss
+        └── simpleProduct.js
+```
+
 ### Theme setup
 
 ### Theme development
