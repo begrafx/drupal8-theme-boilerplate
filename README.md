@@ -13,6 +13,7 @@
 * ESLint - extends [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) 
 * Stylelint - extends [stylelint-config-airbnb](https://www.npmjs.com/package/stylelint-config-airbnb) 
 * Critical CSS - [postcss-critical-css](https://github.com/zgreen/postcss-critical-css)
+* [Husky](https://github.com/typicode/husky) - Git hooks made easy, e.g. linting staged files before commit
 * [Parceljs](https://parceljs.org//) for compiling assets, optimizing images, and concatenating and minifying files
 * [Browsersync](http://www.browsersync.io/) for synchronized browser testing
 
@@ -21,8 +22,6 @@
 Make sure all dependencies have been installed before moving on:
 
 * [Drupal](https://www.drupal.org//) > 8.x
-* [PHP](https://secure.php.net/manual/en/install.php) >= 7.1.3
-* [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
 * [Link CSS](https://www.drupal.org/project/link_css) - Drupal module needs to be enabled in development for Hot Module Reloading
