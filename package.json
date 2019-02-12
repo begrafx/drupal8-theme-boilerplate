@@ -9,7 +9,7 @@
     "start": "run-p parcel:watch eslint:watch stylelint:watch browserSync",
     "build": "run-s clean parcel:build",
     "parcel:watch": "parcel watch 'src/**/*.js'",
-    "parcel:build": "parcel build 'src/**/*.js'",
+    "parcel:build": "parcel build 'src/**/*.js' --no-cache",
     "eslint": "eslint 'src/**/*.js'",
     "eslint:watch": "onchange 'src/**/*.js' -- eslint 'src/**/*.js' --format=pretty --cache",
     "stylelint:watch": "onchange 'src/**/*.scss' -- stylelint 'src/**/*.scss' --cache",

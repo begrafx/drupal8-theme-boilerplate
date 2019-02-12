@@ -6,3 +6,8 @@
 
 // Elements
 @import "abstractions/abstractions";
+
+// Everything here ends in its own main.crit.css file
+@critical {
+  @import "settings/settings-fonts.scss";
+}
