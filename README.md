@@ -48,14 +48,12 @@ Make sure all dependencies have been installed before moving on:
 │   └── icons
 ├── src
 │   ├── abstractions
-│   ├── assets
 │   ├── base
 │   ├── components
 │   ├── main.js
 │   ├── main.scss
 │   ├── mixins
-│   ├── settings
-│   └── someModule.js
+│   └── settings
 ├── templates
 │   ├── block
 │   ├── content
