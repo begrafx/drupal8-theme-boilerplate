@@ -10,7 +10,7 @@
     "build": "run-s clean type-check:build tslint stylelint parcel:build",
     "parcel:watch": "parcel watch 'src/**/*.ts'",
     "parcel:build": "parcel build 'src/**/*.ts' --no-cache",
-    "type-check": "tsc",
+    "type-check": "tsc --noEmit",
     "type-check:build": "tsc --project tsconfig.json",
     "type-check:watch": "tsc-watch",
     "tslint": "tslint --project tsconfig.json --format codeFrame",
