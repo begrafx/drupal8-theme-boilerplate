@@ -5282,7 +5282,7 @@ log-symbols@^1.0.2:
   dependencies:
     chalk "^1.0.0"
 
-log-symbols@^2.0.0, log-symbols@^2.2.0:
+log-symbols@^2.0.0, log-symbols@^2.1.0, log-symbols@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
   integrity sha512-VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==
@@ -8580,6 +8580,16 @@ stylehacks@^4.0.0:
     browserslist "^4.0.0"
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
+
+stylelint-codeframe-formatter@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/stylelint-codeframe-formatter/-/stylelint-codeframe-formatter-1.0.4.tgz#08580f995dab8ce6db100002fd813715abaefffc"
+  integrity sha512-OG9PqAEvu54JEIJf1a+TALkyEYwCmFPSvSRW+X3yuijqAO1TEAPLrxLrCRdEKj0xU5MMhXlvyRwuFgMfDW/x8Q==
+  dependencies:
+    babel-code-frame "^6.26.0"
+    chalk "^2.3.0"
+    log-symbols "^2.1.0"
+    plur "^2.1.2"
 
 stylelint-config-airbnb@0.0.0:
   version "0.0.0"
