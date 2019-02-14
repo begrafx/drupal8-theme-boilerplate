@@ -7,7 +7,7 @@
     "clean": "rimraf dist",
     "prestart": "run-s clean",
     "start": "run-p parcel:watch type-check:watch stylelint:watch browserSync",
-    "build": "run-s clean parcel:build",
+    "build": "run-s clean type-check parcel:build",
     "parcel:watch": "parcel watch 'src/**/*.ts'",
     "parcel:build": "parcel build 'src/**/*.ts' --no-cache",
     "type-check": "tsc",
