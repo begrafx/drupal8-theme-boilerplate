@@ -18,6 +18,7 @@
 * [Parceljs](https://parceljs.org//) - Blazing fast, zero configuration web application bundler
 * [Browsersync](http://www.browsersync.io/) - Synchronized browser testing
 * [sanitize.css](https://github.com/csstools/sanitize.css) - A best-practices CSS foundation
+* [Adapt FE tools](https://www.npmjs.com/package/@adaptagency/fe_tools) - Utility collection to make development more easy and effecient
 
 
 ### Requirements
