@@ -6,12 +6,10 @@
   "scripts": {
     "clean": "rimraf dist",
     "prestart": "run-s clean",
-    "start": "run-p parcel:watch eslint:watch stylelint:watch browserSync",
+    "start": "run-p parcel:watch stylelint:watch browserSync",
     "build": "run-s clean parcel:build",
     "parcel:watch": "parcel watch 'src/**/*.js'",
     "parcel:build": "parcel build 'src/**/*.js' --no-cache",
-    "eslint": "eslint 'src/**/*.js'",
-    "eslint:watch": "onchange 'src/**/*.js' -- eslint 'src/**/*.js' --format=pretty --cache",
     "stylelint:watch": "onchange 'src/**/*.scss' -- stylelint 'src/**/*.scss' --cache",
     "browserSync": "browser-sync start --config ./config/bs-config.js"
   },
@@ -21,10 +19,6 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "eslint",
-      "git add"
-    ],
     "*.scss": [
       "stylelint",
       "git add"
@@ -33,12 +27,7 @@
   "devDependencies": {
     "@adaptagency/fe_tools": "^1.6.4",
     "autoprefixer": "^9.4.7",
-    "babel-eslint": "^10.0.1",
     "dotenv": "^6.2.0",
-    "eslint": "^5.13.0",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-formatter-pretty": "^2.1.1",
-    "eslint-plugin-import": "^2.14.0",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.3",
     "node-sass": "^4.11.0",
