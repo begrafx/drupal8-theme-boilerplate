@@ -10,7 +10,7 @@
 
 ### Features
 * Sass
-* Modern JavaScript or TypeScript
+* TypeScript
 * ESLint - extends [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) 
 * Stylelint - extends [stylelint-config-airbnb](https://www.npmjs.com/package/stylelint-config-airbnb) 
 * Critical CSS - [postcss-critical-css](https://github.com/zgreen/postcss-critical-css)
