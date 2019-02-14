@@ -8,7 +8,7 @@
     "prestart": "run-s clean",
     "start": "run-p parcel:watch stylelint:watch browserSync",
     "build": "run-s clean parcel:build",
-    "parcel:watch": "parcel watch 'src/**/*.js'",
+    "parcel:watch": "parcel watch 'src/**/*.ts'",
     "parcel:build": "parcel build 'src/**/*.ts' --no-cache",
     "stylelint:watch": "onchange 'src/**/*.scss' -- stylelint 'src/**/*.scss' --cache",
     "browserSync": "browser-sync start --config ./config/bs-config.js"
