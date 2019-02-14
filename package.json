@@ -6,12 +6,13 @@
   "scripts": {
     "clean": "rimraf dist",
     "prestart": "run-s clean",
-    "start": "run-p parcel:watch type-check:watch stylelint:watch browserSync",
+    "start": "run-p parcel:watch type-check:watch tslint:watch stylelint:watch browserSync",
     "build": "run-s clean type-check parcel:build",
     "parcel:watch": "parcel watch 'src/**/*.ts'",
     "parcel:build": "parcel build 'src/**/*.ts' --no-cache",
     "type-check": "tsc",
     "type-check:watch": "tsc-watch",
+    "tslint:watch": "onchange 'src/**/*.ts' -- tslint --project tsconfig.json --format codeFrame",
     "stylelint:watch": "onchange 'src/**/*.scss' -- stylelint 'src/**/*.scss' --cache",
     "browserSync": "browser-sync start --config ./config/bs-config.js"
   },
@@ -46,6 +47,8 @@
     "stylelint-order": "^0.7.0",
     "stylelint-scss": "^1.2.1",
     "tsc-watch": "^1.1.39",
+    "tslint": "^5.12.1",
+    "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.3.3"
   },
   "dependencies": {
