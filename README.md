@@ -51,7 +51,7 @@ Make sure all dependencies have been installed before moving on:
 │   ├── abstractions
 │   ├── base
 │   ├── components
-│   ├── main.js
+│   ├── main.ts
 │   ├── main.scss
 │   ├── mixins
 │   └── settings
