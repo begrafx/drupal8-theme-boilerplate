@@ -22,11 +22,11 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix",
+      "eslint",
       "git add"
     ],
     "*.scss": [
-      "stylelint --fix",
+      "stylelint",
       "git add"
     ]
   },
