@@ -28,7 +28,6 @@
     "*.ts": [
       "yarn type-check",
       "yarn tslint",
-      "yarn parcel:build",
       "git add"
     ],
     "*.scss": [
