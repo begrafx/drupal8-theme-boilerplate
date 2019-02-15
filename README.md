@@ -11,9 +11,10 @@
 ### Features
 * Sass
 * TypeScript
-* ESLint - extends [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) 
+* TSLint - extends [tslint:recommended](https://github.com/palantir/tslint/blob/master/src/configs/recommended.ts) 
 * Stylelint - extends [stylelint-config-airbnb](https://www.npmjs.com/package/stylelint-config-airbnb) 
-* Critical CSS - [postcss-critical-css](https://github.com/zgreen/postcss-critical-css)
+* Globally inlined Critical CSS, and/or based on node type 
+* [PostCSS](https://github.com/postcss/postcss) - Transforming styles with JS plugins
 * [Husky](https://github.com/typicode/husky) - Git hooks made easy, e.g. linting staged files before commit
 * [Parceljs](https://parceljs.org//) - Blazing fast, zero configuration web application bundler
 * [Browsersync](http://www.browsersync.io/) - Synchronized browser testing
