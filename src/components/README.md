@@ -6,9 +6,9 @@ src
 ├── components
     ├── README.md
     ├── accordion
-    │   ├── accordion.js
+    │   ├── accordion.ts
     │   └── accordion.scss
     └── simple-product
         ├── simple-product.scss
-        └── simpleProduct.js
+        └── simpleProduct.ts
 ```
