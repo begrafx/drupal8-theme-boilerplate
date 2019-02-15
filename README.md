@@ -38,6 +38,7 @@ Make sure all dependencies have been installed before moving on:
 
 
 ### Theme installation
+To be written...
 
 
 ### Theme structure
@@ -85,7 +86,7 @@ src
 ```
 
 ### Theme setup
-
+To be written...
 
 ### Theme development
 
