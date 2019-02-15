@@ -7,6 +7,9 @@
 * `yarn start` — Compile assets when file changes are made, start Browsersync session
 * `yarn build` — Compile and optimize the files in your src directory for production
 
+If Git hooks are not working, a Git repo was not initialized upon installation of packages.    Run `yarn add -D husky` to re-install.  
+Husky sets up Git hooks on installation, and therefore needs a Git repository to be initialized beforehand. 
+
 
 ### Features
 * Sass
