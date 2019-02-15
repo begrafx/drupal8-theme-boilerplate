@@ -11,6 +11,8 @@
 ### Features
 * Sass
 * TypeScript
+* Hot Module Replacement
+* Code splitting with dynamic imports
 * TSLint - extends [tslint:recommended](https://github.com/palantir/tslint/blob/master/src/configs/recommended.ts) and [tslint-eslint-rules](https://www.npmjs.com/package/tslint-eslint-rules)
 * Stylelint - extends [stylelint-config-airbnb](https://www.npmjs.com/package/stylelint-config-airbnb) 
 * Globally inlined Critical CSS, and/or based on node type 
